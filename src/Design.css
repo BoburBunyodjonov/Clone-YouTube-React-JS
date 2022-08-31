@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #181818;
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.logo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+.logo .bar{
+    font-size: 20px;
+    color: white;
+}
+.logoBrand{
+    width: 110px;
+    position: relative;
+    top: 4px;
+    left: 15px;
+}
+.search{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 50%;
+    height: 70%;
+    padding: 0px 20px;
+    border-radius: 50px 0px 0px 50px;
+    border-right: none;
+    background-color: #121212;
+    border: 0.5px solid rgb(37, 37, 37);
+    font-size: 15px;
+    color: #fff;
+}
+.fa-magnifying-glass{
+    width: 4%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 11px 20px; */
+    border: 0.5px solid rgb(37, 37, 37);
+    background-color: #121212;
+    border-radius: 0px 50px 50px 0px;
+    border-left: none;
+    color: #fff;
+    position: relative;
+    right: 0.6px;
+}
+.fa-microphone1{
+    padding: 11px 20px;
+    border-radius: 50px;
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    position: relative;
+    left: 15px;
+}
+input:focus{
+    background-color: rgb(37, 37, 37);
+    outline: none;
+}
+.icons{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icons i{
+    color: #fff;
+    padding: 0px 15px;
+    position: relative;
+    right: 50px;
+    font-size: 18px;
+}
+.profile{
+    border-radius: 50px;
+    position: relative;
+    right: 30px;
+}
+.profile > img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+.noResults{
+    color: #fff;
+    font-family: monospace;
+    font-size: 20px;
+}
+.videoMain{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 20px 50px;
+}
+/* .sideBar {
+    width: 15%;
+    height: 500px;
+    border: 1px solid green;
+} */
+.videoSec{
+    width: 75%;
+    height: auto;
+}
+.videoIframe{
+    width: 100%;
+}
+.videoIframe iframe{
+    width: 100%;
+    height: 700px;
+}
+.videoInfo{
+    width: 100%;
+    height: 120px;
+    padding: 5px;
+}
+.videoInfo .titleVideo{
+    color: #F1F1F1;
+    font-size: 23px;
+    font-family: Roboto, Arial, sans-serif;
+    padding: 5px;
+}
+.videoInfo .channelTitle{
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+}
+.videoInfo .descriptionVideo{
+    color: white;
+    padding: 5px;
+}
+/* .videoLists > div{
+    float: right;
+    width: 80%;
+} */
+
+.videoLists{
+    width: 25%;
+    height: auto;
+}
+.videoItems:nth-child(1){
+    padding: 0px;
+}
+.videoItems{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    float: right;
+    padding-top: 10px;
+}
+
+.videoItems img{
+    width: 50%;
+    height: 100px;
+}
+.videoItems .titleVideo{
+    width: 50%;
+    height: auto;
+    position: relative;
+    right: 10px;
+}
+.titleVideo b{
+    color: white;
+    font-size: 15px;
+}
+/* .titleVideo > .channelTitle{
+    color: #fff;
+    font-family: system-ui;
+}
+.descriptionVideo{
+    color: #fff;
+    font-family: system-ui;
+    width: 75%;
+}
+.videoItems{
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 15px 0;
+} */
+
+
+
